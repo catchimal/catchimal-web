@@ -12,7 +12,7 @@ import {
   withWidth,
   isWidthUp
 } from "@material-ui/core";
-import headerImage from "../../dummy_data/images/headerImage.jpg";
+import headerImage from "../../dummy_data/images/headerImage.png";
 import WaveBorder from "../../../shared/components/WaveBorder";
 
 const styles = theme => ({
@@ -112,15 +112,7 @@ function HeadSection(props) {
             >
               <div className={classNames(classes.containerFix, "container")}>
                 <Box justifyContent="space-between" className="row">
-                  <Hidden smDown>
-                    <Grid item md={6}>
-                      <img
-                        src={headerImage}
-                        className={classes.image}
-                        alt="catchimal logo"
-                      />
-                    </Grid>
-                  </Hidden>
+
                   <Grid item xs={12} md={5}>
                     <Box
                       display="flex"
@@ -159,6 +151,13 @@ function HeadSection(props) {
                       </div>
                     </Box>
                   </Grid>
+                  <Grid item md={4}>
+                      <img
+                        src={headerImage}
+                        className={classes.image}
+                        alt="catchimal logo"
+                      />
+                    </Grid>
                 </Box>
               </div>
             </Card>
