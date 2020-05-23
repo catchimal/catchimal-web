@@ -85,7 +85,7 @@ function NavBar(props) {
               Catchimal
             </Typography>
           </div>
-          <div>
+          {/*<div>
             <Hidden mdUp>
               <IconButton
                 className={classes.menuButton}
@@ -128,16 +128,16 @@ function NavBar(props) {
                 );
               })}
             </Hidden>
-          </div>
+          </div>*/}
         </Toolbar>
       </AppBar>
-      <NavigationDrawer
+{/*      <NavigationDrawer
         menuItems={menuItems}
         anchor="right"
         open={mobileDrawerOpen}
         selectedItem={selectedTab}
         onClose={handleMobileDrawerClose}
-      />
+      />*/}
     </div>
   );
 }
