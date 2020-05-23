@@ -118,7 +118,7 @@ const socialIcons = [
 
     ),
     label: "Devpost",
-    href: "https://github.com/Catchimal"
+    href: "https://devpost.com/software/catchimal"
   }
 ];
 
