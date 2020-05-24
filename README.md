@@ -1,93 +1,84 @@
-# React SaaS Template
-Remains of a SaaS business I once tried to build. Now transformed into a template for building an SaaS/admin application using React + Material-UI.
+# Landing page Catchimal
 
-[**Check out the demo**](https://reactsaastemplate.com)
+## Main objective of Catchimal
 
-![Node.js CI](https://github.com/dunky11/react-saas-template/workflows/Node.js%20CI/badge.svg)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=dunky11/react-saas-template)](https://dependabot.com)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+- Encourage to get involved with nature completing a virtual album of animals together with your friends.
 
-[<img src="/.github/gifs/showcase.gif">](https://reactsaastemplate.com "Go to demo website")
+## Features of the project
 
+#### Social Media
 
-## Getting Started
+Allows to see your friends registered animals, comment, and chat with them. Join your friends to explore the outside and the unknown.
 
-### Prerequisites
+#### Animal Album
 
-#### Node.js 12+ (versions below could work, but are not tested)
+You would have an album for storing the animals you have taken photos of in your life.
 
-* Linux:
+#### Photo Information
 
-   ```
-   sudo apt install nodejs npm
-   ```
+Catchimal is using GCP services to automatically recognize your animal information. Furthermore, you will see where, when, and how the photography was taken.
 
-* Windows or macOS:
+#### Animal Learning
 
-   https://nodejs.org/en/
+See information and curious facts about the animals around you, chatting with AI chatbot. You would learn how to protect our nature and be sustainable.
 
-### Installing
+#### Gamifier
 
-1. Clone the repository
+It would be like a game, like a real Pokedex. Obtain points and rewards for taking pictures of exotic animals.
 
-   ```
-   git clone https://github.com/dunky11/react-saas-template
-   ```
-2. Install dependencies, this can take a minute
+#### Shared Environment
 
-   ```
-   cd react-saas-template
-   npm install
-   ```
-3. Start the local server
+Share albums between friends, showing the things around you.
 
-   ```
-   npm start
-   ```
+#### User Account
 
-Your browser should now open and show the app. Otherwise open http://localhost:3000/ in your browser. Editing files will automatically refresh the page.
+See progress, status, points, challenges, rewards, and more!
 
-### What to do next?
+#### Interact with your Animals on AR
 
-If you are new to React, you should watch a [basic React tutorial](https://www.youtube.com/results?search_query=react+tutorial) first.
+Win points in a different way when there aren't more animals near. Play, feed or combat with your animals.
 
-If you already know React, then most of the information you need is in the [Material-UI documentation](https://material-ui.com/getting-started/usage/).
+## How we built it - Milestone we have achieved
 
-You can go into [src/theme.js](/src/theme.js) and change the primary and secondary color codes at the top of the script to the values you like and some magic will happen.
+* We made a mobile react native app and a react landing webpage. 
+* Use of Google Cloud Storage for uploading the animals photographs. 
+* Google Vision, Cloud functions and GCP services for recognize animal data.
+* User can login, take a photo, and see some basic information about the animal identified by Google Vision.
+* UiPath used for making test users.
 
-## Deployment
+## Challenges we ran into
 
-If you are happy with the state of your website you can run:
+* Lack of time.
+* Defining task between team members.
 
-```
-npm run build 
-```
+## Accomplishments that we are proud of
 
-It will create a folder named build with your compiled project inside. After that copy its content into your webroot and you are ready to go.
+* The first page on React of one of our members.
 
-## Build With
+* We think that Catchimal is a really cool idea, but do not know how to make it reality and used by real users.
 
-* [Create-React-App](https://github.com/facebook/create-react-app) - Used to bootstrap the development
-* [Material-UI](https://github.com/mui-org/material-ui) - Material Design components
-* [React-Router](https://github.com/ReactTraining/react-router) - Routing of the app
-* [Pace](https://github.com/HubSpot/pace) - Loading bar at the top
-* [Emoji-Mart](https://github.com/missive/emoji-mart) - Picker for the emojis
-* [React-Dropzone](https://github.com/react-dropzone/react-dropzone) - File drop component for uploads
-* [Recharts](https://github.com/recharts/recharts) - Charting library I used for the statistics
-* [Aos](https://github.com/michalsnik/aos) - Animations based on viewport
-* [React-Cropper](https://github.com/roadmanfong/react-cropper) - Cropper for the image uploads
-* [React-Stripe-js](https://github.com/stripe/react-stripe-js) - Stripes payment elements
+## What we learned
 
-## Things im currently working on
+* Some members worked with technologies that they have never worked like React, React Native, Google Cloud Platform or GitHub organizations.
 
-- [ ] Improving the encapsulation of components
-- [ ] smoothScrollTop() sometimes stops scrolling top when components with big height are still rendering
-- [ ] When a Dialog is opened there is a margin on the right side of the viewport (could be that this is not fixable without shaking the viewport on dialog open)
-- [ ] shadeColor() throws errors on certain color codes
-- [ ] Adding iDEAL, FBX and PaymentRequestButton to avaible payment methods
+* Learned team work and communication.
 
-## Contribute
-Show your support by ⭐ the project. Pull requests are always welcome.
+## What's next for Catchimal - To be done
+
+* Allow to avatarize animals on users album.
+
+* Add interactions and games with the AR animals.
+
+* Chats between users.
+
+* Add challenges and multiple albums, ordered by difficulty, to be completed.
+
+* Complete and enhance the functionalities.
+
+* Make a working chatbot that provides the required information by the user for each animal.
+
+* For future plans, it is going to be a complete social media, a game like Pokemon Go, and a platform with a chatbot AI for deep information about the animals.
+
 
 ## License
 
