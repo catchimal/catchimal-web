@@ -144,7 +144,7 @@ function HeadSection(props) {
                           fullWidth
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          href="https://github.com/Catchimal"
+                          href="https://expo.io/@iamrutvik/catchimal"
                         >
                           Download mobile app on your device
                         </Button>
