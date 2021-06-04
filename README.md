@@ -1,5 +1,7 @@
 # Landing page Catchimal
 
+![Catchimal Web](https://i.ibb.co/TY5QmqC/catchimal-web.gif)
+
 ## Main objective of Catchimal
 
 - Encourage to get involved with nature completing a virtual album of animals together with your friends.
